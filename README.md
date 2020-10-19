@@ -2,7 +2,7 @@
 
 ### Install
 ```
-cp docker-compose.yml makedb.php nginx.conf /home/user/
+cp docker-compose.yml makedb.php nginx.conf /home/user/; cd /home/user
 docker-compose -f docker-compose.yml up -d
 ```
 ### joomla web config db
